@@ -15,7 +15,7 @@ Pull this repository into the matlab path or add the folder to it. Run Matlab an
 Now you can open the application files, all .mlapp files allow you to edit different windows of the application.
 <h1>Usage</h1>
 <h2>Database connection</h2>
-
+![Connection Demo](/docs_assets/connection-demo.gif)
 <h2>Import data from the Database</h2>
 
 <h2>Import data from a local source</h2>
