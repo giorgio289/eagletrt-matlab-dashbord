@@ -17,16 +17,13 @@ Pull this repository into the matlab path or add the folder to it. Run Matlab an
 Now you can open the application files, all .mlapp files allow you to edit different windows of the application
 <h1>Usage</h1>
 <h2>Database connection</h2>
-<<<<<<< HEAD
 <img src="/docs_asset/connection_demo.gif">
-=======
 <br />
 <p align="center">
   <img src="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/docs_assets/connection_demo.gif">
 </p>
 <br />
 <p>From settings windows you can set parameters for the connection to your database(connection values are store in settings.mat file so they are used every time you run the connection until you change them). After properly set these parameters you can try to connect to the database: if connection fails you will recive an error else the lamp near to connection button will turn to green. After connection you can choose to close it with "chiudi" button</p>
->>>>>>> b37737dec93fc5ec8a787737f4d2adf6e95d101f
 <h2>Import data from the Database</h2>
 <br />
 <p align="center">
