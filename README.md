@@ -1,6 +1,6 @@
-# eagletrt-matlab-dashbord
-A local dashboard made with <b>MatLab</b> to easily plot telemetry data of <a href="https://github.com/eagletrt">@eagleTRT</a>
-<h1>Project purpose</h1>
+<h1>eagletrt-matlab-dashbord</h1>
+<p>A local dashboard made with <b>MatLab</b> to easily plot telemetry data of <a href="https://github.com/eagletrt">@eagleTRT</a></p>
+<h2>Project purpose</h2>
 <p>This project was made for <a href="https://github.com/eagletrt">@eagleTRT</a>. The telemetry data are saved as a MongoDB. The purpose of this project is giving a fast and easy way to gaphically see, analize and compare data.<br/>For example data comparison allows to rapidly find discrepancies in power consumption related to the speed or to easily identify excessive temperature of the inverter or of the motors. It also manipulates data to provide real speed and slip coefficient. All this information can be used from mechanics team to find problems some mechanical problem or from dinamic team to improve some elements.<br/>The application should be used with desktop devices, mobile support was not needed.</p><br/>
 <h1>Getting Started</h1>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes 
@@ -25,7 +25,7 @@ Now you can open the application files, all .mlapp files allow you to edit diffe
 <p align="center">
   <img src="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/docs_assets/database_import_demo.gif">
 </p>
-<p>After connection enstablished you can import data from your Mongo database, you can choose source data from the dropdown menus: the first allows you to choose from the available collections and the second from the sessions stored in the selected collection. The structure of the documents in the database are stored in <a href="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/output.csv">output.csv</a> file which is generated form main.js which takes as input <a href="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/structure.json">structure.json</a> file (where is represented the structure of the documents as a tree).The tick under the menu allows you to choose if you want to save the imported session locally, that's good to reduce the time required to import the session in the future (the name of the file is the same as the name of the session and it is stored in the app folder)</p>
+<p>After connection enstablished you can import data from your Mongo database, you can choose source data from the dropdown menus: the first allows you to choose from the available collections and the second from the sessions stored in the selected collection. The structure of the documents in the database are stored in <a href="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/output.csv">output.csv</a> file which is generated form <a href="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/parse_structure.py">parse_structure.py</a> which takes as input <a href="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/structure.json">structure.json</a> file (where is represented the structure of the documents as a tree).The tick under the menu allows you to choose if you want to save the imported session locally, that's good to reduce the time required to import the session in the future (the name of the file is the same as the name of the session and it is stored in the app folder)</p>
 <h2>Import data from a local source</h2>
 <p align="center">
   <img src="https://github.com/giorgio289/eagletrt-matlab-dashbord/blob/master/docs_assets/local_import_demo.gif">
